@@ -1,4 +1,6 @@
-# Udacity Android Basics Nanodegree Project No. 2: Score Keeper App
+# Score Keeper App
+ Udacity Android Basics Nanodegree Project No. 2: Score Keeper App
+ 
 Simple one screen app which gives the ability to keep track of the score of two different teams playing Volleyball.
 
 To do:
