@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Volleyball score app</string>
+    <string name="app_name_visible">Volleyball scorekeeper</string>
+    <string name="team_home">Team Home</string>
+    <string name="team_guest">Team Guest</string>
+    <string name="button_point">+ 1 point</string>
+    <string name="button_2points">+ 2 points</string>
+    <string name="button_reset">reset</string>
+    <string name="initial_points">0</string>
+</resources>

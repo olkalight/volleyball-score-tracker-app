@@ -1,0 +1,2 @@
+rootProject.name='volleyball-score-tracker-app'
+include ':app'

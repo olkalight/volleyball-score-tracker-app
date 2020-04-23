@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundApp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/VerticalView">
+
+            <TextView
+                style="@style/MainText"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/team_home" />
+
+            <TextView
+                android:id="@+id/home_team_sets"
+                style="@style/SetsText"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/initial_points" />
+
+            <TextView
+                android:id="@+id/home_team_score"
+                style="@style/ScoreText"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/initial_points" />
+
+            <Button
+                android:id="@+id/point_home_team"
+                style="@style/ButtonText"
+                android:background="@drawable/border_buttons"
+                android:text="@string/button_point" />
+
+            <Button
+                android:id="@+id/two_points_home_team"
+                style="@style/ButtonText"
+                android:background="@drawable/border_buttons"
+                android:text="@string/button_2points" />
+        </LinearLayout>
+
+        <View
+            style="@style/View"
+            android:background="@color/viewBackground" />
+
+        <LinearLayout style="@style/VerticalView">
+
+            <TextView
+                style="@style/MainText"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/team_guest" />
+
+            <TextView
+                android:id="@+id/guest_team_sets"
+                style="@style/SetsText"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/initial_points" />
+
+            <TextView
+                android:id="@+id/guest_team_score"
+                style="@style/ScoreText"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/initial_points" />
+
+            <Button
+                android:id="@+id/point_guest_team"
+                style="@style/ButtonText"
+                android:background="@drawable/border_buttons"
+                android:text="@string/button_point" />
+
+            <Button
+                android:id="@+id/two_points_guest_team"
+                style="@style/ButtonText"
+                android:background="@drawable/border_buttons"
+                android:text="@string/button_2points" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset"
+        style="@style/ButtonReset"
+        android:background="@drawable/border_buttons"
+        android:text="@string/button_reset" />
+</RelativeLayout>
